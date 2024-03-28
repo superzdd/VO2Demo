@@ -3,7 +3,7 @@ import { CONFIG } from './globalConfig'
 
 export class HttpAPI {
   private globalURL() {
-    return `https://${CONFIG.apiDomain}`
+    return `${CONFIG.httpDomain}`
   }
 
   private log(api: string, res: any) {

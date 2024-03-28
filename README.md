@@ -1,5 +1,7 @@
 # VO2 demo Project
 
+[website deployment](https://v2demo.netlify.app/)
+
 More details -> https://git.mediasia.cn/mediasia-interactive/react-test
 
 ## Current task list

@@ -10,7 +10,7 @@ export class SocketAPI {
   }
 
   startTick() {
-    const socket = io(`wss://${CONFIG.apiDomain}`, {
+    const socket = io(`${CONFIG.wsDomain}`, {
       reconnection: true, // 是否允许重连（默认为 true）
       reconnectionAttempts: 5, // 在放弃之前尝试重新连接的次数（默认为 Infinity）
       reconnectionDelay: 1000, // 重新连接之间的延迟（默认为 1000 毫秒）

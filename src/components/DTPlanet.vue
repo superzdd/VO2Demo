@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineEmits, defineProps } from 'vue'
-
 const { titles, values } = defineProps<{
   titles: Array<string>
   valueToShow: Array<string>

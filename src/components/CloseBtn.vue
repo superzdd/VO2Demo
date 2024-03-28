@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import { defineEmits } from 'vue'
-
-// 使用 defineProps 定义 props
-
 const emit = defineEmits(['closeBtnClick'])
 
 function closePopUp() {

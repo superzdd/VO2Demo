@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineEmits, defineProps } from 'vue'
 import CloseBtn from './CloseBtn.vue'
 
 // 使用 defineProps 定义 props
