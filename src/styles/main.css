@@ -1,0 +1,108 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: transparent;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('./assets/fonts/lato/lato-v17-latin-700.eot');
+  src:
+    url('./assets/fonts/lato/lato-v17-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/lato/lato-v17-latin-700.woff2') format('woff2'),
+    url('./assets/fonts/lato/lato-v17-latin-700.woff') format('woff'),
+    url('./assets/fonts/lato/lato-v17-latin-700.ttf') format('truetype'),
+    url('./assets/fonts/lato/lato-v17-latin-700.svg#lato') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato-light';
+  src: url('./assets/fonts/lato/lato-light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fonts/poppins/poppins-v15-latin-regular.eot');
+  src:
+    url('./assets/fonts/poppins/poppins-v15-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/poppins/poppins-v15-latin-regular.woff2')
+      format('woff2'),
+    url('./assets/fonts/poppins/poppins-v15-latin-regular.woff') format('woff'),
+    url('./assets/fonts/poppins/poppins-v15-latin-regular.ttf')
+      format('truetype'),
+    url('./assets/fonts/poppins/poppins-v15-latin-regular.svg#lato')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('./assets/fonts/icon/icomoon.eot?hoehwc');
+  src:
+    url('./assets/fonts/icon/icomoon.eot?hoehwc#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/icon/icomoon.ttf?hoehwc') format('truetype'),
+    url('./assets/fonts/icon/icomoon.woff?hoehwc') format('woff'),
+    url('./assets/fonts/icon/icomoon.svg?hoehwc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-miners:before {
+  content: '\e900';
+}
+.icon-asteroids:before {
+  content: '\e901';
+}
+.icon-planets:before {
+  content: '\e902';
+}
+.icon-live-map:before {
+  content: '\e903';
+}
+
+body {
+  font-family: 'lato-light', sans-serif;
+}
+
+.font-lato {
+  font-family: 'lato';
+}
+
+.font-lato-light {
+  font-family: 'lato-light';
+}
+
+.font-poppins {
+  font-family: 'poppins';
+}
